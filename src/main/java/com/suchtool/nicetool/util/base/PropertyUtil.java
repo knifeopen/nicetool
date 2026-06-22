@@ -68,7 +68,7 @@ public class PropertyUtil {
     /**
      * 判断是否所有字段都是null
      * @param o 对象
-     * @return 所有的对象都是null
+     * @return 是否所有的对象都是null
      */
     public static boolean allFieldAreNull(Object o) {
         Class<?> aClass = o.getClass();
